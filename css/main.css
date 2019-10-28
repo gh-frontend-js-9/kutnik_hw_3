@@ -139,6 +139,33 @@
     margin-top: 39px;
     line-height: 32px;
 }
+.m_btn{
+    margin: 36px 0 70px 0;
+}
+.btn_watch + .btn_watch{
+    margin-left: 10px;
+}
+.btn_watch{
+    text-decoration: none;
+    color: #323232;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+.watch{
+    border: 1px solid silver;
+    padding: 8px 13px;
+    background-color: #f8f8f8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.watch_number{
+    border: 1px solid silver;
+    padding: 8px 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 .bg_color{
     background-color: #f4f4f4;
     max-width: 1380px;
@@ -146,8 +173,8 @@
 }
 .list_flex{
     display: flex;
-    
     padding-top: 84px;
+    height: 611px;
 }
 .main_wrapper li {
     list-style-type: none;
@@ -514,17 +541,6 @@
 .student + .student{
     margin-left: 13px;
 }
-/* .student_title:hover{
-    width: 299px;
-    height: 111px;
-    background-color: #392d3d;
-
-}
-.student_content:hover{
-    width: 299px;
-    height: 499px;
-    background-color:#413445;
-} */
 .professional_btn{
     margin-top: 36px;
 }
